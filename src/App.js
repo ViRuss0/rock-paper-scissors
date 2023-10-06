@@ -41,6 +41,7 @@ function App() {
 
 	const changeModeHandler = () => {
 		setCpuMode((prev) => !prev);
+		///IT RESETS THE SCORE AND CHANGES THE PLAYERS' NAMES
 		setScore([
 			{
 				name: !cpuMode ? 'Good Machine' : 'Human',
@@ -53,7 +54,7 @@ function App() {
 				color: 'text-red-300',
 			},
 		]);
-
+		/// IT CLEANS UP THE RESULTBOX SECTION
 		setResult({ winner: '', pick1: '', pick2: '' });
 	};
 
@@ -75,14 +76,6 @@ function App() {
 				</Button>
 			</div>
 
-			{/* {score.map((player) => (
-					<Score
-						key={player.name}
-						name={player.name}
-						score={player.score}
-						color={player.color}
-					/>
-				))} */}
 			<Score
 				key={score[1].name}
 				name={score[1].name}
