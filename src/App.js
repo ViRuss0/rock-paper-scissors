@@ -63,7 +63,7 @@ function App() {
 		setResult({ winner: '', pick1: '', pick2: '' });
 	};
 	return (
-		<main className='bg-slate-700 min-h-screen flex p-6 md:p-10 items-center flex-col gap-16'>
+		<main className='bg-slate-700 min-h-screen flex p-6 md:p-10 items-center flex-col gap-16 justify-between'>
 			<div className='flex gap-2 justify-center'>
 				<Button
 					onClick={changeModeHandler}
