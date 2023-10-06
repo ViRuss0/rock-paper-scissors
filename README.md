@@ -7,9 +7,13 @@ This project is a simple rock paper scissors game running on the client.
 - The game can be played human vs CPU or CPU vs CPU (the latter can be enabled by clicking on Enable CPU mode button)
 - The game can be restarted by clicking on the "Play again" button
 
+## Scripts
+
 In the project directory, you can run:
 
-## Scripts
+### `npm install`
+
+Installs all the dependencies
 
 ### `npm start`
 
